@@ -1,5 +1,11 @@
-replicaCount: 2
-
-appImage:
-  repository: user-crud-app
-  tag: "1.0.0"
+user-crud-app:
+  backend:
+    replicas: 2
+    image:
+      repository: ""
+      tag: ""
+  frontend:
+    replicas: 2
+    image:
+      repository: ""
+      tag: ""
