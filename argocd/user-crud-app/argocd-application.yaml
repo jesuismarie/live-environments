@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/jesuismarie/live-environments.git
     targetRevision: main
-    path: aws/dev/user-crud-app
+    path: environments/dev/user-crud-app
     helm:
       valueFiles:
         - values.yaml
