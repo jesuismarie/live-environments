@@ -3,9 +3,9 @@ user-crud-app:
     replicas: 2
     image:
       repository: "557604519372.dkr.ecr.us-east-1.amazonaws.com/user-crud-app"
-      tag: "backend-sha-c0a4518"
+      tag: "backend-sha-833be1e"
   frontend:
     replicas: 2
     image:
       repository: "557604519372.dkr.ecr.us-east-1.amazonaws.com/user-crud-app"
-      tag: "frontend-sha-c0a4518"
+      tag: "frontend-sha-833be1e"
